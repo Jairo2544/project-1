@@ -19,6 +19,11 @@
 		display: none;
 	}
 
+	.nav-img {
+		width: 100%;
+		height: 55px;
+	}
+
 	.nav-ul {
 		width: 100%;
 		text-align: center;
@@ -34,7 +39,7 @@
 		height: 55px;
 	}
 
-	.nav-container a {
+	.nav-ul a {
 		display: inline-block;
 		text-decoration: none;
 		color: #fff;
@@ -44,7 +49,7 @@
 		font-size: 15px;
 	}
 
-	.nav-container a:hover {
+	.nav-ul a:hover {
 		border-bottom: 5px solid #fff;
 	}
 
