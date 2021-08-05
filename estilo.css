@@ -118,6 +118,16 @@
 			margin: 10px 0px;
 		}
 
+	/*Recomendacion botones*/
+		/*derecha*/
+			.recommend0, .recommend1, .recommend2 {
+				display: none;	
+			}
+
+			.active {
+				display: block;
+			}
+
 /*Botones*/	
 	.boton {
 		display: inline-block;
