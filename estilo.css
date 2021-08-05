@@ -73,7 +73,6 @@
 	/* Recomendacion Seccion */
 
 		.container-notice {
-			background-image: url(img/1280x835.jpg);
 			width: 100%;
 			height: calc(100vh - 65px);
 			background-repeat: no-repeat;
@@ -118,14 +117,27 @@
 			margin: 10px 0px;
 		}
 
-	/*Recomendacion botones*/
-		/*derecha*/
-			.recommend0, .recommend1, .recommend2 {
-				display: none;	
+	/*Recomendacion Js*/
+		/*Texto*/
+			/*derecha*/
+				.recommend0, .recommend1, .recommend2 {
+					display: none;	
+				}
+
+				.active {
+					display: block;
+				}
+		/*Imagenes*/
+			.recommend0 {
+				background-image: url(img/KoeNoKatachi-1280x835.jpg);
 			}
 
-			.active {
-				display: block;
+			.recommend1 {
+				background-image: url();
+			}
+
+			.recommend2 {
+				background-image: url();
 			}
 
 /*Botones*/	
