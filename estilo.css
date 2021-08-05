@@ -191,8 +191,9 @@
 		}
 	/*responsive 450-650*/	
 		@media only screen and (max-width: 650px) {
-			.recommend {
-				font-size: 35px;
+			.container-tittle p {
+				font-size: 22.5px;
+				border: 3.75px solid #000;
 			}
 
 			.container-notice {
@@ -206,6 +207,13 @@
 
 			.par {
 				font-size: 20px;
+			}
+			.boton {
+				width: 90px;
+				height: 37.5px;
+				font-size: 15px;
+				padding-top: 6.75px;
+				border: 3.75px solid #000;
 			}
 		}
 
