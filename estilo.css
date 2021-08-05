@@ -55,10 +55,11 @@
 /* Recomendaciones */
 	/*Texto*/	
 		.container-tittle {
-			text-align: center;
+			text-align: right;
 			padding-top: 10px;
 			height: 80px;
 			margin-bottom: -80px;
+			padding-right: 20px;
 		}
 
 		.container-tittle p {
@@ -203,10 +204,11 @@
 
 			.tittle {
 				font-size: 25px;
+				margin-bottom: 25px;
 			}
 
 			.par {
-				font-size: 20px;
+				display: none;
 			}
 			.boton {
 				width: 90px;
@@ -218,9 +220,9 @@
 		}
 
 	/*responsive 300-450*/
-		@media only screen and (max-width: 450px){
+		@media only screen and (max-width: 465px){
 			.container-tittle p {
-				font-size: 35px;
+				font-size: 20px;
 			}
 
 			.container-notice {
@@ -229,10 +231,14 @@
 			}
 
 			.tittle {
-				font-size: 25px;
+				font-size: 20px;
 			}
 
-			.par {
-				font-size: 20px;
+			.boton {
+				width: 45px;
+				height: 18.75px;
+				font-size: 7.5px;
+				padding-top: 3.375px;
+				border: 3px solid #000;
 			}
 		}
