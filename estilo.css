@@ -83,6 +83,24 @@
 			background-position: center ;
 		}
 
+		.container-notice .fas {
+			height: 100%;
+			width: 5%;
+			display: flex;
+			align-items: center;
+			font-size: 30px;
+			justify-content: center;
+		}
+
+		.container-notice .fas:hover {
+			opacity: .5;
+			cursor: pointer;
+		}
+
+		.container-notice .right {
+			margin-left: 55%;
+		}
+
 		.notice1{
 			width: 35%;
 			text-align: center;
