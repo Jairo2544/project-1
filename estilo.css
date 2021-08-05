@@ -132,7 +132,7 @@
 /*responsive recomendaciones*/
 	/*responsive 1024 recommend*/
 		@media only screen and (max-width: 1025px)	{
-			.recommend {
+			.container-tittle p {
 				font-size: 35px;
 			}
 
