@@ -116,8 +116,12 @@
 				height: 391px;
 			}
 
-			.notice1 {
+			.tittle {
 				font-size: 15px;
+			}
+
+			.par {
+				font-size: 10px;
 			}
 		}
 
