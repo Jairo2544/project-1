@@ -23,7 +23,7 @@ var recommendNumber = 0
 
 		/*Background*/
 			var backn = "back" + recommendNumber;
-			document.querySelector(".container-notice").classList.replace(backo, backn);
+			document.querySelector(".container-recommend").classList.replace(backo, backn);
 
 		/*color*/
 			var rcolorn = "r-color" + recommendNumber;
@@ -46,8 +46,8 @@ var recommendNumber = 0
 
 		/*Background*/
 			var back = "back" + recommendNumber;
-			document.querySelector(".container-notice").classList.remove("back0", "back1", "back2");
-			document.querySelector(".container-notice").classList.add(back);
+			document.querySelector(".container-recommend").classList.remove("back0", "back1", "back2");
+			document.querySelector(".container-recommend").classList.add(back);
 
 		/*color*/
 			var rcolor = "r-color" + recommendNumber;
