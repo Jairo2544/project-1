@@ -104,7 +104,6 @@
 		.notice{
 			width: 35%;
 			text-align: center;
-			color: #222;
 			margin: 0;
 		}
 
@@ -118,6 +117,37 @@
 		}
 
 	/*Recomendacion Js*/
+		/*Color*/
+			/*Recommend0*/
+				.back0 {
+					color: #222;
+				}
+
+				.r-color0 p, .back0 a {
+					color: #222;
+					border-color: #222;
+				}
+
+			/*Recomend1*/		
+				.back1 {
+					color: #fff;
+				}
+
+				.r-color1 p, .back1 a {
+					color: #fff;
+					border-color: #fff;
+				}
+				
+			/*Recommend2*/
+				.back2 {
+					color: #f00;
+				}
+
+				.r-color2 p, .back2 a{
+					color: #f00;
+					border-color: #f00;
+				}
+
 		/*Texto*/
 			/*derecha*/
 				.recommend0, .recommend1, .recommend2 {
@@ -128,16 +158,16 @@
 					display: block;
 				}
 		/*Imagenes*/
-			.recommend0 {
+			.back0 {
 				background-image: url(img/KoeNoKatachi-1280x835.jpg);
 			}
 
-			.recommend1 {
-				background-image: url();
+			.back1 {
+				background-image: url(img/kakegurui-1280x835.jpg);
 			}
 
-			.recommend2 {
-				background-image: url();
+			.back2 {
+				background-image: url(img/BunnyGirlSenpai-1280x835.jpg);
 			}
 
 /*Botones*/	
