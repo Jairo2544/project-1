@@ -140,12 +140,12 @@
 				
 			/*Recommend2*/
 				.back2 {
-					color: #000;
+					color: #ddd;
 				}
 
 				.r-color2 p, .back2 a{
-					color: #000;
-					border-color: #000;
+					color: #ddd;
+					border-color: #ddd;
 				}
 
 		/*Texto*/
