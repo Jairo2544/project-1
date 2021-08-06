@@ -60,6 +60,7 @@
 			height: 80px;
 			margin-bottom: -80px;
 			padding-right: 20px;
+			transition: .9s;
 		}
 
 		.container-tittle p {
@@ -81,6 +82,7 @@
 			align-items: center;
 			padding: 20px;
 			background-position: center ;
+			transition: 1s;
 		}
 
 		.container-notice .fas {
@@ -229,68 +231,77 @@
 					width: 100%;
 				}
 
-				.show {
-					transform: translate(0px);
-				}
+				/*nav-menu*/
+					.show {
+						transform: translate(0px);
+					}
 
-				.boton-res {
-					display: inline-block;
-					position: absolute;
-					right: 10px;
-					top: 10px;
-					font-size: 45px;
-					cursor: pointer;
-				}
+					.boton-res {
+						display: inline-block;
+						position: absolute;
+						right: 10px;
+						top: 10px;
+						font-size: 45px;
+						cursor: pointer;
+					}
 		}
 	/*responsive 450-650*/	
 		@media only screen and (max-width: 650px) {
-			.container-tittle p {
-				font-size: 22.5px;
-				border: 3.75px solid #000;
-			}
+			/*recommend responsive*/
+				.container-tittle p {
+					font-size: 22.5px;
+					border: 3.75px solid #000;
+				}
 
-			.container-notice {
-				width: 100%;
-				height: 290px;
-			}
+				.container-notice {
+					width: 100%;
+					height: 290px;
+				}
 
-			.tittle {
-				font-size: 25px;
-				margin-bottom: 25px;
-			}
+				.tittle {
+					font-size: 25px;
+					margin-bottom: 25px;
+				}
 
-			.par {
-				display: none;
-			}
-			.boton {
-				width: 90px;
-				height: 37.5px;
-				font-size: 15px;
-				padding-top: 6.75px;
-				border: 3.75px solid #000;
+				.par {
+					display: none;
+				}
+
+				.boton {
+					width: 90px;
+					height: 37.5px;
+					font-size: 15px;
+					padding-top: 6.75px;
+					border: 3.75px solid #000;
 			}
 		}
 
 	/*responsive 300-450*/
-		@media only screen and (max-width: 465px){
-			.container-tittle p {
-				font-size: 20px;
-			}
+		@media only screen and (max-width: 500px){
+			/*nav-menu*/
+				.nav-ul {
+					width: 45%;
+				}
 
-			.container-notice {
-				width: 100%;
-				height: 196px;
-			}
+			/*recommend*/			
+				.container-tittle p {
+					font-size: 20px;
+				}
 
-			.tittle {
-				font-size: 20px;
-			}
+				.container-notice {
+					width: 100%;
+					height: 196px;
+				}
 
-			.boton {
-				width: 45px;
-				height: 18.75px;
-				font-size: 7.5px;
-				padding-top: 3.375px;
-				border: 3px solid #000;
-			}
+				.tittle {
+					font-size: 20px;
+				}
+
+				.boton {
+					width: 45px;
+					height: 18.75px;
+					font-size: 7.5px;
+					padding-top: 3.375px;
+					border: 3px solid #000;
+				}
 		}
