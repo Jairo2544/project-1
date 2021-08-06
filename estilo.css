@@ -172,32 +172,113 @@
 				background-image: url(img/BunnyGirlSenpai-1280x835.jpg);
 			}
 
-/* News*/
-	.container-news {
+/*Animes*/
+	.container-anime {
 		width: 100%;
-		height: 1000px;
 		text-align: center;
 		margin: 0;
 		padding: 5px;
-		background-color: #000;
 	}
 
-	.container-news .tittle b {
+	.container-anime .tittle b {
 		color: #fff;
 		border: 5px solid #fff;
 		padding: 5px 10px;
+		font-size: 40px;
 	}
 
-	.news {
+	.anime {
 		display: flex;
 		flex: flex-end;
+		flex-wrap: wrap;
+		text-align: center;
+		justify-content: center;
 	}
 
-	.caja {
+	.container-section {
 		background-color: #fff;
 		min-width: 250px;
-		height: 100px;
-		margin: 0px 10px;
+		height: 250px;
+		margin: 10px 10px;
+		padding: 15px;
+	}
+
+	.container-section img {
+		background-color: #000;
+		width: 220px;
+		height: 135px;
+	}
+
+	.anime-tittle {
+		font-size: 25px;
+		border: 5px solid #000;
+		margin-bottom: 20px;
+	}
+
+	.container-section a {
+		text-decoration: none;
+		color: #000;
+		border: 5px solid #000;
+		padding: 2.5px 5px;
+	}
+
+	.container-section .fas {
+		margin-right: 2px ;
+	}
+
+/*Productos*/
+	.container-products {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 5px;
+		background-color: #333;
+	}
+
+	.container-product .tittle b {
+		color: #fff;
+		border: 5px solid #fff;
+		padding: 5px 10px;
+		font-size: 40px;
+	}
+
+	.products {
+		display: flex;
+		flex: flex-end;
+		flex-wrap: wrap;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.container-product {
+		background-color: #fff;
+		min-width: 250px;
+		height: 250px;
+		margin: 10px 10px;
+		padding: 15px;
+	}
+
+	.container-product img {
+		background-color: #000;
+		width: 220px;
+		height: 135px;
+	}
+
+	.product-name {
+		font-size: 25px;
+		border: 5px solid #000;
+		margin-bottom: 20px;
+	}
+
+	.container-section a {
+		text-decoration: none;
+		color: #000;
+		border: 5px solid #000;
+		padding: 2.5px 5px;
+	}
+
+	.container-section .fas {
+		margin-right: 2px ;
 	}
 
 /*Botones*/	
@@ -228,12 +309,12 @@
 				font-size: 25px;
 			}
 
-			.par {
+			.paragraph {
 				font-size: 20px;
 			}
 		}
 
-	/*responsive 650-930*/	
+	/*responsive 675-930*/	
 		@media only screen and (max-width: 930px) {
 			/*nav-res*/
 				.nav-container {
@@ -273,8 +354,8 @@
 						cursor: pointer;
 					}
 		}
-	/*responsive 450-650*/	
-		@media only screen and (max-width: 650px) {
+	/*responsive 450-675*/	
+		@media only screen and (max-width: 675px) {
 			/*recommend responsive*/
 				.container-tittle p {
 					font-size: 22.5px;
@@ -291,7 +372,7 @@
 					margin-bottom: 25px;
 				}
 
-				.par {
+				.paragraph {
 					display: none;
 				}
 
@@ -313,7 +394,7 @@
 
 			/*recommend*/			
 				.container-tittle p {
-					font-size: 18.5px;
+					font-size: 20px;
 				}
 
 				.container-recommend {
@@ -321,8 +402,8 @@
 					height: 196px;
 				}
 
-				.tittle {
-					font-size: 15px;
+				.recommend .tittle {
+					font-size: 20px;
 				}
 
 				.boton {
