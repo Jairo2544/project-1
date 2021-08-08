@@ -6,20 +6,20 @@
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<link rel="icon" href="img/logo.ico">
-		<script src="https://kit.fontawesome.com/61de02ee1d.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
+		<div class="scroll" id="inicio"></div>
 		<div class="nav-container">
 			<a href="index.html"><img class="nav-img" src="img/logo.png" alt="logo"></a>
 			<div class="boton-res">
 				<i class="fas fa-bars"></i>
 			</div>
 			<ul class="nav-ul">
-				<li class="nav-ul-li"><a href="index.html">INICIO</a></li>
+				<li class="nav-ul-li"><a href="#inicio">INICIO</a></li>
 				<li class="nav-ul-li"><a href="#animes">ANIMES</a></li>
 				<li class="nav-ul-li"><a href="#productos">PRODUCTOS</a></li>
 				<li class="nav-ul-li"><a href="#redes">REDES</a></li>	
-				<li class="nav-ul-li"><a href="#">FORO</a></li>	
+				<li class="nav-ul-li"><a href="foro.html">FORO</a></li>	
 			</ul>
 		</div>
 		<div class="container-container-recommend">
@@ -54,8 +54,9 @@
 				<i class="fas fa-chevron-right right"></i>
 			</div>
 		</div>
+		<div class="scroll" id="animes"></div>
 		<div class="container-anime">
-			<h1 class="tittle" id="animes"><b>ANIMES</b></h1>
+			<h1 class="tittle"><b>ANIMES</b></h1>
 			<div class="anime">
 				<div class="container-section">
 					<img src="img/Anime/KoeNoKatachi.jpg" alt="Koe No Katachi">
@@ -95,8 +96,9 @@
 			</div>
 			<h4 class="moreanime"><a href="#">Más animes</a></h4>
 		</div>
+		<div class="scroll" id="productos"></div>
 		<div class="container-products">
-			<h1 class="tittle" id="productos"><b>PRODUCTOS</b></h1>
+			<h1 class="tittle"><b>PRODUCTOS</b></h1>
 			<div class="products">
 				<div class="container-product">
 					<img src="https://m.media-amazon.com/images/I/61SyGRyasEL._AC_UL320_.jpg">
@@ -118,7 +120,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-redes" id="REDES">
+		<div class="scroll" id="redes"></div>
+		<div class="container-redes">
 			<h1 class="tittle"><b>REDES</b></bREDES></h1>
 			<ul class="redes">
 				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -132,6 +135,11 @@
 			<h3 class="derechos">©Todos los derechos reservados.</h3>
 			<h3 class="marca">Castillito SAC</h3>
 		</div>
-		<script type="text/javascript" src="main.js"></script>
+		<!--Iconos-->
+			<script src="https://kit.fontawesome.com/61de02ee1d.js" crossorigin="anonymous"></script>
+		<!--Scroll reveal-->
+			<script src="https://unpkg.com/scrollreveal"></script>
+		<!--CUSTOM JS-->
+			<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
