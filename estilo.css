@@ -1,486 +1,579 @@
-/*Scroll*/
-	html {scroll-behavior: smooth;}
-	.scroll {
-		margin-top: -65px;
-		height: 65px;
-	}
-
-/*Navegación*/
-	body {
-		padding-top: 65px;
-		background-color: #555555;
-		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");	
-	}
-
-	.nav-container {
-		display: flex;
-		background-color: #aaa;
-		padding: 5px 10px;
-		height: 65px;
-		position: fixed;
-		width: 100%;
-		margin-top: -65px;
-	}
-
-	.boton-res {
-		display: none;
-	}
-
-	.nav-img {
-		height: 55px;
-	}
-
-	.nav-ul {
-		width: 100%;
-		text-align: center;
-	}
-
-	.nav-ul-li {
-		display: inline-block;
-		height: 55px;
-	}
-
-	.nav-container li {
-		width: 130px;
-		height: 55px;
-	}
-
-	.nav-ul a {
-		display: inline-block;
-		text-decoration: none;
-		color: #fff;
-		width: 130px;
-		height: 55px;
-		padding-top: 17px;
-		font-size: 15px;
-	}
-
-	.nav-ul a:hover {
-		border-bottom: 5px solid #fff;
-	}
-
-/* Recomendaciones */
-	/*Texto*/	
-		.container-tittle {
-			text-align: right;
-			padding-top: 10px;
-			height: 80px;
-			margin-bottom: -80px;
-			padding-right: 20px;
-			transition: .9s;
+/*index.html*/
+	/*Scroll*/
+		html {scroll-behavior: smooth;}
+		.scroll {
+			margin-top: -65px;
+			height: 65px;
 		}
 
-		.container-tittle p {
-			display: inline-block;
-			font-size: 45px;
-			border: 5px solid #000;
-			color: #000;
+	/*Navegación*/
+		body {
+			padding-top: 65px;
+			background-color: #555555;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");	
+		}
+
+		.nav-container {
+			display: flex;
+			background-color: #aaa;
 			padding: 5px 10px;
-		}
-
-	/* Recomendacion Seccion */
-
-		.container-recommend {
+			height: 65px;
+			position: fixed;
 			width: 100%;
-			height: calc(100vh - 65px);
-			background-repeat: no-repeat;
-			background-size: 100%;
-			display: flex;
-			align-items: center;
-			padding: 20px;
-			background-position: center ;
-			transition: 1s;
+			margin-top: -65px;
 		}
 
-		.container-recommend .fas {
-			height: 100%;
-			width: 5%;
+		.nav-container .boton-res {
+			display: none;
+		}
+
+		.nav-container .nav-img {
+			height: 55px;
+		}
+
+		.nav-container .nav-ul {
+			width: 100%;
+			text-align: center;
+		}
+
+		.nav-container .nav-ul-li {
+			display: inline-block;
+			height: 55px;
+		}
+
+		.nav-container .nav-container li {
+			width: 130px;
+			height: 55px;
+		}
+
+		.nav-container .nav-ul a {
+			display: inline-block;
+			text-decoration: none;
+			color: #fff;
+			width: 130px;
+			height: 55px;
+			padding-top: 17px;
+			font-size: 15px;
+		}
+
+		.nav-container .nav-ul a:hover {
+			border-bottom: 5px solid #fff;
+		}
+
+	/* Recomendaciones */
+		/*Texto*/	
+			.container-container-recommend .container-tittle {
+				text-align: right;
+				padding-top: 10px;
+				height: 80px;
+				margin-bottom: -80px;
+				padding-right: 20px;
+				transition: .9s;
+			}
+
+			.container-container-recommend .container-tittle p {
+				display: inline-block;
+				font-size: 45px;
+				border: 5px solid #000;
+				color: #000;
+				padding: 5px 10px;
+			}
+
+		/* Recomendacion Seccion */
+
+			.container-container-recommend .container-recommend {
+				width: 100%;
+				height: calc(100vh - 65px);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				display: flex;
+				align-items: center;
+				padding: 20px;
+				background-position: center ;
+				transition: 1s;
+			}
+
+			.container-container-recommend .container-recommend .fas {
+				height: 100%;
+				width: 5%;
+				display: flex;
+				align-items: center;
+				font-size: 30px;
+				justify-content: center;
+			}
+
+			.container-container-recommend .container-recommend .fas:hover {
+				opacity: .5;
+				cursor: pointer;
+			}
+
+			.container-container-recommend .container-recommend .right {
+				margin-left: 55%;
+			}
+
+			.container-container-recommend .recommend {
+				width: 35%;
+				text-align: center;
+				margin: 0;
+			}
+
+			.container-container-recommend .recommend .tittle {
+				font-size: 35px
+			}
+
+			.container-container-recommend .recommend .paragraph {
+				font-size: 25px;
+				margin: 10px 0px;
+			}
+
+			.container-container-recommend .boton {
+				display: inline-block;
+				width: 120px;
+				height: 50px;
+				font-size: 20px;
+				padding-top: 9px;
+				text-decoration: none;
+				border: 5px solid #000;
+				color: #000;
+			}
+
+		/*Recomendacion Js*/
+			/*Color*/
+				/*Recommend0*/
+					.container-container-recommend .back0 {
+						color: #222;
+					}
+
+					.container-container-recommend .r-color0 p, .back0 a {
+						color: #222;
+						border-color: #222;
+					}
+
+				/*Recomend1*/		
+					.container-container-recommend .back1 {
+						color: #fff;
+					}
+
+					.container-container-recommend .r-color1 p, .container-container-recommend .back1 a {
+						color: #fff;
+						border-color: #fff;
+					}
+					
+				/*Recommend2*/
+					.container-container-recommend .back2 {
+						color: #ddd;
+					}
+
+					.container-container-recommend .r-color2 p, .container-container-recommend .back2 a{
+						color: #ddd;
+						border-color: #ddd;
+					}
+
+			/*Texto*/
+				/*derecha*/
+					.container-container-recommend .recommend0, .container-container-recommend .recommend1, .container-container-recommend .recommend2 {
+						display: none;	
+					}
+
+					.container-container-recommend .active {
+						display: block;
+					}
+			/*Imagenes*/
+				.container-container-recommend .back0 {
+					background-image: url(img/recommend/recommend0.jpg);
+				}
+
+				.container-container-recommend .back1 {
+					background-image: url(img/recommend/recommend1.jpg);
+				}
+
+				.container-container-recommend .back2 {
+					background-image: url(img/recommend/recommend2.jpg);
+				}
+
+	/*Animes*/
+		.container-anime {
+			width: 100%;
+			text-align: center;
+			margin: 0;
+			padding: 5px;
+		}
+
+		.container-anime .tittle b {
+			color: #fff;
+			border: 5px solid #fff;
+			padding: 5px 10px;
+			font-size: 40px;
+		}
+
+		.container-anime .anime {
 			display: flex;
-			align-items: center;
-			font-size: 30px;
+			flex: flex-end;
+			flex-wrap: wrap;
+			text-align: center;
 			justify-content: center;
 		}
 
-		.container-recommend .fas:hover {
-			opacity: .5;
-			cursor: pointer;
+		.container-anime .container-section {
+			background-color: #ddd;
+			min-width: 250px;
+			height: 250px;
+			margin: 10px 10px;
+			padding: 15px;
 		}
 
-		.container-recommend .right {
-			margin-left: 55%;
+		.container-anime .container-section img {
+			width: 220px;
+			height: 135px;
 		}
 
-		.recommend {
-			width: 35%;
+		.container-anime .anime-tittle {
+			font-size: 25px;
+			border: 5px solid #000;
+			margin-bottom: 20px;
+		}
+
+		.container-anime .container-section a {
+			text-decoration: none;
+			color: #000;
+			border: 5px solid #000;
+			padding: 2.5px 5px;
+		}
+
+		.container-anime .container-section .fas {
+			margin-right: 2px ;
+		}
+
+		.container-anime .moreanime {
+			text-align: center;
+			margin: 0.67em 0 15px 0;
+		}
+
+		.container-anime .moreanime a{
+			text-decoration: none;
+			color:#fff;
+			border: 5px solid #fff;
+			font-size: 35px;
+			padding: 5px 10px;
+		}
+
+	/*Productos*/
+		.container-products {
+			width: 100%;
 			text-align: center;
 			margin: 0;
+			padding: 5px;
+			background-color: #777;
+		}
+	
+		.container-products .tittle b {
+			color: #fff;
+			border: 5px solid #fff;
+			padding: 5px 10px;
+			font-size: 40px;
 		}
 
-		.recommend .tittle {
-			font-size: 35px
+		.container-products .products {
+			display: flex;
+			flex: flex-end;
+			flex-wrap: wrap;
+			text-align: center;
+			justify-content: center;
 		}
 
-		.recommend .paragraph {
+		.container-products .container-product {
+			background-color: #ddd;
+			min-width: 250px;
+			margin: 10px 10px;
+			padding: 15px;
+		}
+
+		.container-products .container-product img {
+			background-color: #000;
+			width: 223px;
+			height: 223px;
+			image-resolution: 100%;
+		}
+
+		.container-products .product-name {
 			font-size: 25px;
-			margin: 10px 0px;
+			border: 5px solid #000;
+			margin-bottom: 15px;
 		}
 
-	/*Recomendacion Js*/
-		/*Color*/
-			/*Recommend0*/
-				.back0 {
-					color: #222;
-				}
-
-				.r-color0 p, .back0 a {
-					color: #222;
-					border-color: #222;
-				}
-
-			/*Recomend1*/		
-				.back1 {
-					color: #fff;
-				}
-
-				.r-color1 p, .back1 a {
-					color: #fff;
-					border-color: #fff;
-				}
-				
-			/*Recommend2*/
-				.back2 {
-					color: #ddd;
-				}
-
-				.r-color2 p, .back2 a{
-					color: #ddd;
-					border-color: #ddd;
-				}
-
-		/*Texto*/
-			/*derecha*/
-				.recommend0, .recommend1, .recommend2 {
-					display: none;	
-				}
-
-				.active {
-					display: block;
-				}
-		/*Imagenes*/
-			.back0 {
-				background-image: url(img/recommend/recommend0.jpg);
-			}
-
-			.back1 {
-				background-image: url(img/recommend/recommend1.jpg);
-			}
-
-			.back2 {
-				background-image: url(img/recommend/recommend2.jpg);
-			}
-
-/*Animes*/
-	.container-anime {
-		width: 100%;
-		text-align: center;
-		margin: 0;
-		padding: 5px;
-	}
-
-	.container-anime .tittle b {
-		color: #fff;
-		border: 5px solid #fff;
-		padding: 5px 10px;
-		font-size: 40px;
-	}
-
-	.anime {
-		display: flex;
-		flex: flex-end;
-		flex-wrap: wrap;
-		text-align: center;
-		justify-content: center;
-	}
-
-	.container-section {
-		background-color: #ddd;
-		min-width: 250px;
-		height: 250px;
-		margin: 10px 10px;
-		padding: 15px;
-	}
-
-	.container-section img {
-		width: 220px;
-		height: 135px;
-	}
-
-	.anime-tittle {
-		font-size: 25px;
-		border: 5px solid #000;
-		margin-bottom: 20px;
-	}
-
-	.container-section a {
-		text-decoration: none;
-		color: #000;
-		border: 5px solid #000;
-		padding: 2.5px 5px;
-	}
-
-	.container-section .fas {
-		margin-right: 2px ;
-	}
-
-	.moreanime {
-		text-align: center;
-		margin: 0.67em 0 15px 0;
-	}
-
-	.moreanime a{
-		text-decoration: none;
-		color:#fff;
-		border: 5px solid #fff;
-		font-size: 35px;
-		padding: 5px 10px;
-	}
-
-/*Productos*/
-	.container-products {
-		width: 100%;
-		text-align: center;
-		margin: 0;
-		padding: 5px;
-		background-color: #777;
-	}
- 
-	.container-products .tittle b {
-		color: #fff;
-		border: 5px solid #fff;
-		padding: 5px 10px;
-		font-size: 40px;
-	}
-
-	.products {
-		display: flex;
-		flex: flex-end;
-		flex-wrap: wrap;
-		text-align: center;
-		justify-content: center;
-	}
-
-	.container-product {
-		background-color: #ddd;
-		min-width: 250px;
-		margin: 10px 10px;
-		padding: 15px;
-	}
-
-	.container-product img {
-		background-color: #000;
-		width: 223px;
-		height: 223px;
-		image-resolution: 100%;
-	}
-
-	.product-name {
-		font-size: 25px;
-		border: 5px solid #000;
-		margin-bottom: 15px;
-	}
-
-	.price {
-		margin-bottom: 15px;
-		font-size: 20px;
-	}
-
-	.container-product a {
-		text-decoration: none;
-		color: #000;
-		border: 5px solid #000;
-		padding: 2.5px 5px;
-		font-size: 20px;
-	}
-
-	.container-product .fas {
-		margin-right: 2px ;
-	}
-
-
-/*redes*/
-	.container-redes {
-		margin: 0;
-		background-color: #aaa;
-		text-align: center;
-		padding: 5px;
-		padding-bottom: .67em;
-	}
-
-	.container-redes .tittle {
-		color: #ddd;
-	}
-
-	.container-redes .tittle b{
-		color: #ddd;
-		border: 5px solid #ddd;
-		padding: 5px 10px;
-		font-size: 40px;
-	}
-
-	.redes {
-		display: flex;
-		text-align: center;
-		justify-content: center;
-		flex-wrap: wrap;
-		list-style: none;
-	}
-
-	.redes a {
-		display: inline-block;
-		text-decoration: none;
-		color:#ddd;
-		margin: 0 20px;
-		font-size: 80px;
-	}
-
-/*footer*/
-	.container-footer {
-		background-color: #888;
-		text-align: center;
-		padding: 10px;
-		color: #ccc;
-	}
-
-/*Botones*/	
-	.boton {
-		display: inline-block;
-		width: 120px;
-		height: 50px;
-		font-size: 20px;
-		padding-top: 9px;
-		text-decoration: none;
-		border: 5px solid #000;
-		color: #000;
-	}
-
-/*responsive recomendaciones*/
-	/*responsive 1024 recommend*/
-		@media only screen and (max-width: 1025px)	{
-			.container-tittle p {
-				font-size: 35px;
-			}
-
-			.container-recommend {
-				width: 100%;
-				height: 391px;
-			}
-
-			.tittle {
-				font-size: 25px;
-			}
-
-			.paragraph {
-				font-size: 20px;
-			}
+		.container-products .price {
+			margin-bottom: 15px;
+			font-size: 20px;
 		}
 
-	/*responsive 675-930*/	
-		@media only screen and (max-width: 930px) {
-			/*nav-res*/
-				.nav-container {
-					display: block;
-					padding: 0px;
+		.container-products .container-product a {
+			text-decoration: none;
+			color: #000;
+			border: 5px solid #000;
+			padding: 2.5px 5px;
+			font-size: 20px;
+		}
+
+		.container-products .container-product .fas {
+			margin-right: 2px ;
+		}
+
+
+	/*redes*/
+		.container-redes {
+			margin: 0;
+			background-color: #aaa;
+			text-align: center;
+			padding: 5px;
+			padding-bottom: .67em;
+		}
+
+		.container-redes .tittle {
+			color: #ddd;
+		}
+
+		.container-redes .tittle b{
+			color: #ddd;
+			border: 5px solid #ddd;
+			padding: 5px 10px;
+			font-size: 40px;
+		}
+
+		.container-redes .redes {
+			display: flex;
+			text-align: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			list-style: none;
+		}
+
+		.container-redes .redes a {
+			display: inline-block;
+			text-decoration: none;
+			color:#ddd;
+			margin: 0 20px;
+			font-size: 80px;
+		}
+
+	/*footer*/
+		.container-footer {
+			background-color: #888;
+			text-align: center;
+			padding: 10px;
+			color: #ccc;
+		}
+
+
+	/*responsive index.html*/
+		/*responsive 1024 recommend*/
+			@media only screen and (max-width: 1025px)	{
+				.container-container-recommend .container-tittle p {
+					font-size: 35px;
 				}
 
-				.nav-img {
-					margin: 5px 0px 0px 10px;
-				}
-
-				.nav-ul{
-					width: 25%;
-					height: 100vh;
-					background-color: #aaad;
-					transform: translate(-300px);
-					transition: transform 1s ease-in-out;
-					margin-top: 5px;
-				}
-
-				.nav-ul li {
-					display: block;
+				.container-container-recommend .container-recommend {
 					width: 100%;
+					height: 391px;
 				}
 
-				/*nav-menu*/
-					.show {
-						transform: translate(0px);
-					}
-
-					.boton-res {
-						display: inline-block;
-						position: absolute;
-						right: 10px;
-						top: 10px;
-						font-size: 45px;
-						cursor: pointer;
-					}
-		}
-	/*responsive 450-675*/	
-		@media only screen and (max-width: 675px) {
-			/*recommend responsive*/
-				.container-tittle p {
-					font-size: 22.5px;
-					border: 3.75px solid #000;
-				}
-
-				.container-recommend {
-					width: 100%;
-					height: 290px;
-				}
-
-				.tittle {
+				.container-container-recommend .tittle {
 					font-size: 25px;
-					margin-bottom: 25px;
 				}
 
-				.paragraph {
-					display: none;
+				.container-container-recommend .paragraph {
+					font-size: 20px;
 				}
-
-				.boton {
-					width: 90px;
-					height: 37.5px;
-					font-size: 15px;
-					padding-top: 6.75px;
-					border: 3.75px solid #000;
 			}
+
+		/*responsive 675-930*/	
+			@media only screen and (max-width: 930px) {
+				/*nav-res*/
+					.nav-container {
+						display: block;
+						padding: 0px;
+					}
+
+					.nav-container .nav-img {
+						margin: 5px 0px 0px 10px;
+					}
+
+					.nav-container .nav-ul{
+						width: 25%;
+						height: 100vh;
+						background-color: #aaad;
+						transform: translate(-300px);
+						transition: transform 1s ease-in-out;
+						margin-top: 5px;
+					}
+
+					.nav-container .nav-ul li {
+						display: block;
+						width: 100%;
+					}
+
+					/*nav-menu*/
+						.nav-container .show {
+							transform: translate(0px);
+						}
+
+						.nav-container .boton-res {
+							display: inline-block;
+							position: absolute;
+							right: 10px;
+							top: 10px;
+							font-size: 45px;
+							cursor: pointer;
+						}
+			}
+		/*responsive 450-675*/	
+			@media only screen and (max-width: 675px) {
+				/*recommend responsive*/
+					.container-container-recommend .container-tittle p {
+						font-size: 22.5px;
+						border: 3.75px solid #000;
+					}
+
+					.container-container-recommend .container-recommend {
+						width: 100%;
+						height: 290px;
+					}
+
+					.container-container-recommend .recommend .tittle {
+						font-size: 25px;
+						margin-bottom: 25px;
+					}
+
+					.container-container-recommend .recommend .paragraph {
+						display: none;
+					}
+
+					.container-container-recommend .boton {
+						width: 90px;
+						height: 37.5px;
+						font-size: 15px;
+						padding-top: 6.75px;
+						border: 3.75px solid #000;
+					}
+			}
+
+		/*responsive 300-450*/
+			@media only screen and (max-width: 500px){
+				/*nav-menu*/
+					.nav-container .nav-ul {
+						width: 45%;
+					}
+
+				/*recommend*/			
+					.container-container-recommend .container-tittle p {
+						font-size: 20px;
+					}
+
+					.container-container-recommend .container-recommend {
+						width: 100%;
+						height: 196px;
+					}
+
+					.container-container-recommend .recommend .tittle {
+						font-size: 20px;
+					}
+
+					.container-container-recommend .boton {
+						width: 45px;
+						height: 18.75px;
+						font-size: 7.5px;
+						padding-top: 3.375px;
+						border: 3px solid #000;
+					}
+			}
+
+/*Animes particulares*/
+	/*descripcion anime*/	
+		.container-particular-anime {
+			width: 90%;
+			margin: 10px 5%;
+			padding: 40px;
+			border: 5px solid #000;
+			background-color: #ffffff;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='18' viewBox='0 0 100 18'%3E%3Cpath fill='%23c5c5c5' fill-opacity='0.4' d='M61.82 18c3.47-1.45 6.86-3.78 11.3-7.34C78 6.76 80.34 5.1 83.87 3.42 88.56 1.16 93.75 0 100 0v6.16C98.76 6.05 97.43 6 96 6c-9.59 0-14.23 2.23-23.13 9.34-1.28 1.03-2.39 1.9-3.4 2.66h-7.65zm-23.64 0H22.52c-1-.76-2.1-1.63-3.4-2.66C11.57 9.3 7.08 6.78 0 6.16V0c6.25 0 11.44 1.16 16.14 3.42 3.53 1.7 5.87 3.35 10.73 7.24 4.45 3.56 7.84 5.9 11.31 7.34zM61.82 0h7.66a39.57 39.57 0 0 1-7.34 4.58C57.44 6.84 52.25 8 46 8S34.56 6.84 29.86 4.58A39.57 39.57 0 0 1 22.52 0h15.66C41.65 1.44 45.21 2 50 2c4.8 0 8.35-.56 11.82-2z'%3E%3C/path%3E%3C/svg%3E");
 		}
 
-	/*responsive 300-450*/
-		@media only screen and (max-width: 500px){
-			/*nav-menu*/
-				.nav-ul {
-					width: 45%;
-				}
-
-			/*recommend*/			
-				.container-tittle p {
-					font-size: 20px;
-				}
-
-				.container-recommend {
-					width: 100%;
-					height: 196px;
-				}
-
-				.recommend .tittle {
-					font-size: 20px;
-				}
-
-				.boton {
-					width: 45px;
-					height: 18.75px;
-					font-size: 7.5px;
-					padding-top: 3.375px;
-					border: 3px solid #000;
-				}
+		.container-particular-anime h1, .container-particular-anime .tittle {
+			text-align: center;
+			margin-bottom: 20px;
 		}
+
+		.container-particular-anime h1 {
+			font-size: 45px;
+			height: 65px;
+			margin: 10px 0px 40px 0px;
+		}
+
+		.container-particular-anime h1 b {
+			border: 5px solid #000;
+			padding: 10px 20px;
+		}
+
+		.container-particular-anime .tittle{
+			font-size: 35px;
+		}
+
+		.container-particular-anime .container-img {
+			height: 200px;
+			width: 230px;
+			margin: 0px 20px 20px 0px;
+			float: left;
+			padding: 5px;
+			background-color: #fff;
+			text-align: center;
+		}
+
+		.container-particular-anime .container-img img{
+			height: 135px;
+			width: 220px;
+		}
+
+		.container-particular-anime h2 {
+			margin: 30px 0px;
+		}
+
+		.container-particular-anime h2 b {
+			border: 5px solid #000;
+			border:5px solid #000;
+			padding: 10px 20px;
+		}
+
+		.container-particular-anime p {
+			font-size: 25px;
+		}
+	/*Ver en:*/
+		.container-particular-anime .container-links h3 {
+			margin: 30px 0px;
+		}
+
+		.container-particular-anime .container-links h3 b {
+			border: 5px solid #000;
+			padding: 10px 20px;
+		}
+
+		.container-particular-anime .container-links ul{
+			list-style: none;
+		}
+
+		.container-particular-anime .container-links li{
+			font-size: 22.5px;
+		}
+
+		.container-particular-anime .container-links a{
+			list-style: none;
+		}
+
+/*responsive anime particular (min545)*/
+	@media only screen and (max-width:545px) {
+		.container-particular-anime h1 b {
+			display: block;
+		}
+		.container-particular-anime .container-img {
+			float: none;
+			margin: auto;
+		}
+	}
