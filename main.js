@@ -3,6 +3,14 @@
 		document.querySelector(".nav-ul").classList.toggle("show")
 	});
 
+/*scroll reveal*/
+	/*ScrollReveal().reveal(".tittle", {delay:100});*/
+	ScrollReveal().reveal(".container-section", {delay:100});
+	ScrollReveal().reveal(".container-product", {delay:100});
+	/*ScrollReveal().reveal("container-section", {delay:100});
+	ScrollReveal().reveal("container-section", {delay:100});
+	ScrollReveal().reveal("container-section", {delay:100});*/
+
 /*Recommend flechas*/
 	var recommendNumber = 0
 
