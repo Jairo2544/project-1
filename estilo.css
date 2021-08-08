@@ -1,3 +1,10 @@
+/*Scroll*/
+	html {scroll-behavior: smooth;}
+	.scroll {
+		margin-top: -65px;
+		height: 65px;
+	}
+
 /*Navegación*/
 	body {
 		padding-top: 65px;
@@ -247,7 +254,7 @@
 		background-color: #777;
 	}
  
-	.container-product .tittle b {
+	.container-products .tittle b {
 		color: #fff;
 		border: 5px solid #fff;
 		padding: 5px 10px;
