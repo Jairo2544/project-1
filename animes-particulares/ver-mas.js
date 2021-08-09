@@ -123,7 +123,7 @@ var animes = [
 
 function primeros(number) {
     for (let i = 0; i<number; i++) {
-        document.getElementById("section").insertAdjacentHTML("beforeend", '<div class="container-section">    <img src="animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.jpg" alt="' + animes[i].name +'">    <h3 class="anime-tittle">' + animes[i].name +'</h3>    <a href="/animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.html"><i class="fas fa-info-circle"></i>Info</a>  </div>');
+        document.getElementById("section").insertAdjacentHTML("beforeend", '<div class="container-section">    <img src="animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.jpg" alt="' + animes[i].name +'">    <h3 class="anime-tittle">' + animes[i].name +'</h3>    <a href="animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.html"><i class="fas fa-info-circle"></i>Info</a>  </div>');
     }
 };
 
@@ -134,7 +134,7 @@ function eliminar(number, array){
 };
 
 for (let i=0 ; i<6 ; i++) {
-   document.getElementById("section").insertAdjacentHTML("beforeend", '<div class="container-section">    <img src="animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.jpg" alt="' + animes[i].name +'">    <h3 class="anime-tittle">' + animes[i].name +'</h3>    <a href="/animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.html"><i class="fas fa-info-circle"></i>Info</a>  </div>');
+   document.getElementById("section").insertAdjacentHTML("beforeend", '<div class="container-section">    <img src="animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.jpg" alt="' + animes[i].name +'">    <h3 class="anime-tittle">' + animes[i].name +'</h3>    <a href="animes-particulares/' + animes[i].archive + '/' + animes[i].archive + '.html"><i class="fas fa-info-circle"></i>Info</a>  </div>');
 };
 
 document.getElementById("more").addEventListener("click", () => {
