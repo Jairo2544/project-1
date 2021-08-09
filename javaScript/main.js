@@ -60,3 +60,8 @@
 				document.querySelector(".container-tittle").classList.remove("r-color0", "r-color1", "r-color2");
 				document.querySelector(".container-tittle").classList.add(rcolor);
 		});
+
+/*Boton-res*/
+document.querySelector(".boton-res").addEventListener("click", () => {
+	document.querySelector(".nav-ul").classList.toggle("show")
+});
