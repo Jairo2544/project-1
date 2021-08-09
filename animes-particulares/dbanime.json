@@ -2,121 +2,221 @@
     {
         "id": 1,
         "archive": "KoeNoKatachi",
-        "name": "Koe No Katachi"
+        "name": "Koe No Katachi",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 2,
         "archive": "Kakegurui",
-        "name": "Kakegurui"
+        "name": "Kakegurui",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 3,
         "archive": "BunnyGirlSenpai",
-        "name": "Bunny girl Senpai"
+        "name": "Bunny girl Senpai",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 4,
         "archive": "PokemonXY",
-        "name": "Pokemon XY"
+        "name": "Pokemon XY",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 5,
         "archive": "Relife",
-        "name": "Relife"
+        "name": "Relife",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 6,
         "archive": "AngelBeast",
-        "name": "Angel Beast"
+        "name": "Angel Beast",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 7,
         "archive": "YourLieInApril",
-        "name": "Your lie in April"
+        "name": "Your lie in April",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 8,
         "archive": "Tsugonomo",
-        "name": "Tsugonomo"
+        "name": "Tsugonomo",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 9,
         "archive": "ThePromisedNeverland",
-        "name": "The Pormised Neverland"
+        "name": "The Pormised Neverland",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 10,
         "archive": "KarakaiJouzuNoTakagiSan",
-        "name": "Karakai Jouzu No Takagi-San"
+        "name": "Karakai Jouzu No Takagi-San",
+        "sinopsis": "",
+        "argumento":  "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 11,
         "archive": "DeathNote",
-        "name": "Death Note"
+        "name": "Death Note",
+        "sinopsis": "",
+        "argumento":  "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 12,
         "archive": "KimetsuNoYaiba",
-        "name": "Kimetsu No Yaiba"
+        "name": "Kimetsu No Yaiba",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 13,
         "archive": "ShingekiNoKyojin",
-        "name": "Shingeki No Kyojin"
+        "name": "Shingeki No Kyojin",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 14,
         "archive": "Himouto!UmaruChan",
-        "name": "Himouto! Umaru-chan"
+        "name": "Himouto! Umaru-chan",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 15,
         "archive": "SwordArtOnline",
-        "name": "Sword Art Online"
+        "name": "Sword Art Online",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 16,
         "archive": "TokyoGhoul",
-        "name": "Tokyo Ghoul"
+        "name": "Tokyo Ghoul",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 17,
         "archive": "Toradora!",
-        "name": "Toradora!"
+        "name": "Toradora!",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 18,
         "archive": "NeonGenesisEvangelion",
-        "name": "Neon Genesis Evangelion"
+        "name": "Neon Genesis Evangelion",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 19,
-        "archive": "SailorMoom",
-        "name": "Sailor Moom"
+        "archive": "SailorMoon",
+        "name": "Sailor Moon",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     },
 
     {
         "id": 20,
         "archive": "Clannad",
-        "name": "Clannad"
+        "name": "Clannad",
+        "sinopsis": "",
+        "argumento": "",
+        "ver": {
+            "netflix": ""
+        }
     }
  
 ]}
