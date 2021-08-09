@@ -25,8 +25,8 @@ var animes = [
 
     {
         id: 5,
-        archive: "Relife",
-        name: "Relife",
+        archive: "ReLife",
+        name: "ReLife",
     },
 
     {
