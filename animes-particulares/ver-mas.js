@@ -149,7 +149,7 @@ request.onload = function() {
         eliminar(6, animes);
         if (animes.length >= 6) {
             primeros(6);
-        }
+        };
         if (animes.length < 6) {
             primeros(animes.length);
             document.querySelector(".moreanime").classList.add("hidden")
