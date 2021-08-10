@@ -62,7 +62,7 @@
 							meterHTML("container", code);
 
 						/*container-img*/
-							var code = '<div class="container-img">	<img src="' + archive + '.jpg" alt="' + archive + '">	<p>Portada de ' + name + '</p>	</div>';
+							var code = '<div class="container-img">	<img src="../img/' + archive + '.jpg" alt="' + archive + '">	<p>Portada de ' + name + '</p>	</div>';
 							meterHTML("container", code);
 						
 						/*container-sinopsis*/
@@ -88,6 +88,10 @@
 									var code = '<li>Crunchyroll: <a href="' + crunchyroll + '">Click aquí</a></li>';
 									meterHTML("links", code)
 								};
+
+						/*footer*/
+							var code ='<div class="container-footer"> <h3 class="derechos">©Todos los derechos reservados.</h3>   <h3 class="marca">Castillito SAC</h3>   </div>'
+							meterHTML("body", code)
 				}			
 			};
 	};
