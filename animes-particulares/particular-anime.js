@@ -80,12 +80,12 @@
 							/*meterlinks*/
 								const netflix = ver.netflix;
 								const crunchyroll = ver.crunchyroll;
-								if (netflix != "null") {
-									var code = '<li>Netflix: <a href="' + netflix + '">Click aquí</a></li>';
+								if (netflix != null) {
+									var code = '<li>Netflix: <a href="' + netflix + '" target="_BLANK">Click aquí</a></li>';
 									meterHTML("links", code)
 								};
-								if (crunchyroll != "null") {
-									var code = '<li>Crunchyroll: <a href="' + crunchyroll + '">Click aquí</a></li>';
+								if (crunchyroll != null) {
+									var code = '<li>Crunchyroll: <a href="' + crunchyroll + '" target="_BLANK">Click aquí</a></li>';
 									meterHTML("links", code)
 								};
 
