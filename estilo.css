@@ -9,13 +9,13 @@
 	/*Navegación*/
 		body {
 			padding-top: 65px;
-			background-color: #555555;
+			background-color: #E79C27;
 			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");	
 		}
 
 		.nav-container {
 			display: flex;
-			background-color: #aaa;
+			background-color: #E79C27;
 			padding: 5px 10px;
 			height: 65px;
 			position: fixed;
@@ -151,12 +151,12 @@
 
 				/*Recomend1*/		
 					.container-container-recommend .back1 {
-						color: #fff;
+						color: #023d95;
 					}
 
 					.container-container-recommend .r-color1 p, .container-container-recommend .back1 a {
-						color: #fff;
-						border-color: #fff;
+						color: #023d95;
+						border-color: #023d95;
 					}
 					
 				/*Recommend2*/
@@ -191,72 +191,70 @@
 					background-image: url(img/recommend/recommend2.jpg);
 				}
 
-	/*Animes*/
-		.container-anime {
+	/*books*/
+		.container-book {
 			width: 100%;
 			text-align: center;
 			margin: 0;
 			padding: 5px;
 		}
 
-		.container-anime .tittle b {
+		.container-book .tittle b {
 			color: #fff;
 			border: 5px solid #fff;
 			padding: 5px 10px;
 			font-size: 40px;
 		}
 
-		.container-anime .anime {
+		.container-book .book {
 			display: flex;
 			flex-wrap: wrap;
 			text-align: center;
 			justify-content: center;
 		}
 
-		.container-anime .container-section {
+		.container-book .container-section {
 			background-color: #ddd;
 			width: 250px;
-			height: 250px;
+			height: 300px;
 			margin: 10px 10px;
 			padding: 15px;
 		}
 
-		.container-anime .container-section img {
-			width: 220px;
+		.container-book .container-section img {
 			height: 135px;
 		}
 
-		.container-anime .anime-tittle {
+		.container-book .book-tittle {
 			font-size: 25px;
 			border: 5px solid #000;
 			margin-bottom: 20px;
 		}
 
-		.container-anime .container-section a {
+		.container-book .container-section a {
 			text-decoration: none;
 			color: #000;
 			border: 5px solid #000;
 			padding: 2.5px 5px;
 		}
 
-		.container-anime .container-section .fas {
+		.container-book .container-section .fas {
 			margin-right: 2px ;
 		}
 
-		.container-anime .moreanime {
+		.container-book .morebook {
 			text-align: center;
 			margin: 0.67em 0 15px 0;
 		}
 
-		.container-anime .moreanime b{
+		.container-book .morebook b{
 			color:#fff;
 			border: 5px solid #fff;
 			font-size: 35px;
 			padding: 5px 10px;
-			cursor: pointer;
 		}
 
-		.container-anime .hidden {
+		.container-book .hidden {
 			display: none;
 		}
 
@@ -266,7 +264,7 @@
 			text-align: center;
 			margin: 0;
 			padding: 5px;
-			background-color: #777;
+			background-color: #c57b05;
 		}
 	
 		.container-products .tittle b {
@@ -324,7 +322,7 @@
 	/*redes*/
 		.container-redes {
 			margin: 0;
-			background-color: #aaa;
+			background-color: #a55b00;
 			text-align: center;
 			padding: 5px;
 			padding-bottom: .67em;
@@ -359,7 +357,7 @@
 
 	/*footer*/
 		.container-footer {
-			background-color: #888;
+			background-color: #E79C27;
 			text-align: center;
 			padding: 10px;
 			color: #ccc;
@@ -488,9 +486,9 @@
 					}
 			}
 
-/*Animes particulares*/
-	/*descripcion anime*/	
-		.container-particular-anime {
+/*books particulares*/
+	/*descripcion book*/	
+		.container-particular-book {
 			width: 90%;
 			margin: 10px 5%;
 			padding: 40px;
@@ -499,26 +497,26 @@
 			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='18' viewBox='0 0 100 18'%3E%3Cpath fill='%23c5c5c5' fill-opacity='0.4' d='M61.82 18c3.47-1.45 6.86-3.78 11.3-7.34C78 6.76 80.34 5.1 83.87 3.42 88.56 1.16 93.75 0 100 0v6.16C98.76 6.05 97.43 6 96 6c-9.59 0-14.23 2.23-23.13 9.34-1.28 1.03-2.39 1.9-3.4 2.66h-7.65zm-23.64 0H22.52c-1-.76-2.1-1.63-3.4-2.66C11.57 9.3 7.08 6.78 0 6.16V0c6.25 0 11.44 1.16 16.14 3.42 3.53 1.7 5.87 3.35 10.73 7.24 4.45 3.56 7.84 5.9 11.31 7.34zM61.82 0h7.66a39.57 39.57 0 0 1-7.34 4.58C57.44 6.84 52.25 8 46 8S34.56 6.84 29.86 4.58A39.57 39.57 0 0 1 22.52 0h15.66C41.65 1.44 45.21 2 50 2c4.8 0 8.35-.56 11.82-2z'%3E%3C/path%3E%3C/svg%3E");
 		}
 
-		.container-particular-anime h1, .container-particular-anime .tittle {
+		.container-particular-book h1, .container-particular-book .tittle {
 			text-align: center;
 			margin-bottom: 20px;
 		}
 
-		.container-particular-anime h1 {
+		.container-particular-book h1 {
 			font-size: 45px;
 			margin: 10px 0px 50px 0px;
 		}
 
-		.container-particular-anime h1 b {
+		.container-particular-book h1 b {
 			border: 5px solid #000;
 			padding: 10px 20px;
 		}
 
-		.container-particular-anime .tittle{
+		.container-particular-book .tittle{
 			font-size: 35px;
 		}
 
-		.container-particular-anime .container-img {
+		.container-particular-book .container-img {
 			height: 200px;
 			width: 230px;
 			margin: 0px 20px 20px 0px;
@@ -528,75 +526,85 @@
 			text-align: center;
 		}
 
-		.container-particular-anime .container-img img{
+		.container-particular-book .container-img img{
 			height: 135px;
-			width: 220px;
 		}
 
-		.container-particular-anime h2 {
+		.container-particular-book h2 {
 			margin: 30px 0px;
 		}
 
-		.container-particular-anime h2 b {
+		.container-particular-book h2 b {
 			border: 5px solid #000;
 			border:5px solid #000;
 			padding: 10px 20px;
 		}
 
-		.container-particular-anime p {
+		.container-particular-book p {
 			font-size: 25px;
 			text-align: center;
 		}
-	/*Ver en:*/
-		.container-particular-anime .container-links h3 {
+
+		.video {
+			margin: 0px 20px;
+			padding-left: 5%;
+			width: 90%;
+		}
+	/*Comprar*/
+		.container-particular-book .container-links h3 {
 			margin: 30px 0px;
 		}
 
-		.container-particular-anime .container-links h3 b {
+		.container-particular-book .container-links a {
+			text-decoration: none;
+			color:#000;
+		}
+
+		.container-particular-book .container-links h3 b {
 			border: 5px solid #000;
 			padding: 10px 20px;
 		}
 
-		.container-particular-anime .container-links ul{
+		.container-particular-book .container-links ul{
 			list-style: none;
 		}
 
-		.container-particular-anime .container-links li{
+		.container-particular-book .container-links li{
 			font-size: 22.5px;
 		}
 
-		.container-particular-anime .container-links a{
+		.container-particular-book .container-links a{
 			list-style: none;
 		}
 
-/*responsive anime particular 400-545)*/
+/*responsive book particular 400-545)*/
 	@media only screen and (max-width:545px) {
-		.container-particular-anime h1 b {
+		.container-particular-book h1 b {
 			display: block;
 		}
-		.container-particular-anime .container-img {
+		.container-particular-book .container-img {
 			float: none;
 			margin: auto;
 		}
 	}
 
-/*responsive anime particula 330-400*/
+/*responsive book particula 330-400*/
 	@media only screen and (max-width: 400px) {
-		.container-particular-anime {
+		.container-particular-book {
 			padding: 20px;
 		}
 	}
 
-/*responsive anime particular -330*/
+/*responsive book particular -330*/
 	@media only screen and (max-width: 330px) {
-		.container-particular-anime .container-img {
+		.container-particular-book .container-img {
 			width: 210px
 		}
-		.container-particular-anime .container-img img {
+		.container-particular-book .container-img img {
 			width: 200px;
 			height: auto;
 		}
-		.container-particular-anime h1 {
+		.container-particular-book h1 {
 			margin-bottom: 30px;
 		}
 	}

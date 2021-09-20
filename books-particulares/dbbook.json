@@ -1,0 +1,28 @@
+{"books" :[
+	{
+		"id": 1,
+		"archive": "LaNararacionDeArthurGordomPym",
+		"name": "La narración de Arthur Gordon Pym",
+		"sinopsis": "The story turns around a young guy called Arthur who is going to coment us about his unbelieveable and terrorific expiriences in the past.",
+		"video": "LaNararacionDeArthurGordomPym.mp4",
+		"comprar": "https://www.crisol.com.pe/libro-narracion-arthur-gordon-9788492412150"
+	},
+
+	{
+		"id": 2,
+		"archive": "VoyASalirJaladoEnCastellano",
+		"name": "Voy a salir jalado en Castellano",
+		"sinopsis": "Join Mario Darío in this incredible story. He is a fifteen-year-old boy who recounts his experiences with his friends, his attempts to make Andrea fall in love and the anger that some characters cause him, while he is in his second year of high school at his school.",
+		"video": "VoyASalirJaladoEnCastellano.mp4",
+		"comprar": "https://www.crisol.com.pe/voy-a-salir-jalado-en-castellano-serie-azul"
+	},
+
+	{
+		"id": 3,
+		"archive": "Templado",
+		"name": "Templado",
+		"sinopsis": "The poet, a fourteen-year-old adolescent, has disappeared and only one unfinished diary remains of him. A teacher of the poet finds the unfinished diary and decides to publish it, as a tribute to all the young people who suffer for love.",
+		"video": "Templado.mp4",
+		"comprar": "https://www.tailoy.com.pe/libro-templado-santillana-10940.html"
+	}
+]}
